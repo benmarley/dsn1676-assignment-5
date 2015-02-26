@@ -1,0 +1,65 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+
+}
+
+.to-do-title {
+	margin: 0;
+	text-align: center;
+	padding-top: 20px;
+}
+
+.rounded-corners {
+	border: solid #CCC 2px; 
+	border-radius: 15px;
+}
+
+.background-grey {
+	background-color: #EEEEEE;
+	border-radius: 15px;
+}
+
+.rounded-corners {
+	text-align: center;
+	margin: 1em;
+}
+
+.to-do-input {
+	width: 200px;
+	height: 30px;
+	height:;
+	border-radius: 4px 0 0 4px;
+	border:solid #BBBBBB;
+
+}
+
+.add-btn {
+	margin:0;
+	padding:5px;
+	position: relative;
+	background-color: #DDDDDD;
+	right:5px;
+	border-radius: 0 7px 7px 0;
+	border:solid #BBBBBB 1px;
+	margin-bottom: 1em; 
+
+}
