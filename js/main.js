@@ -2,12 +2,10 @@ var $form = $('.form');
 var $item = $('.item');
 
 
-$form.on('submit', function (e) {
+$form.on('click', function (e) {
 	e.preventDefault();
 
-	var $itemLi = $('<li>').html($item.val());
-
-	$li.append
-	
+	$item.append($item.val());
+		
 
 })
