@@ -91,5 +91,6 @@ li {
 	font-size: 120%;
 	font-weight: normal;
 	text-align: left;
-	padding-bottom: 1em; 
+	padding-bottom: 1em;
+	cursor: pointer;
 }

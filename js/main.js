@@ -1,8 +1,6 @@
 var $form = $('.form');
 var $item = $('.item');
 var $list = $('.list');
-var $li = $('li')
-
 
 $form.on('submit', function (e) { 
 	e.preventDefault();
@@ -10,9 +8,7 @@ $form.on('submit', function (e) {
 	var $li = $('<li>').html($item.val());
 
 	$list.append($li);
-
 });
-
 
 $list.on('click', function () {
 	$list.css({
