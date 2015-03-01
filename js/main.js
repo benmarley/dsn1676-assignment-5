@@ -8,12 +8,9 @@ $form.on('submit', function (e) {
 
 	var $li = $('<li>').html($item.val());
 
-	$li.append($list);
-
-
+	$list.append($li);
 
 	
-
 
 });
 
