@@ -99,3 +99,14 @@ li {
 	text-decoration: line-through;
 }
 
+.bg-col {
+	background-color: #ccc
+
+}
+
+.bg-col:hover {
+	background-color: grey;
+
+	cursor: pointer;
+}
+

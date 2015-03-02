@@ -7,13 +7,12 @@ $form.on('submit', function (e) {
 	e.preventDefault();
 
 	var $li = $('<li>').html($item.val());
-	var $button = $('<button>X</button>');
+	var $button = $('<button class="bg-col">X</button>');
 	
 	$list.append($li);
 	$li.append($button);
 
 	$button.css ({
-		'background-color': '#DDDDDD',
 		'margin-right': '0px',
 		'font-family': "Brush Script MT",
 		'font-size': '1rem',
@@ -22,8 +21,9 @@ $form.on('submit', function (e) {
 		'position': 'relative',
 		'left': '60%',
 		'border-radius': '5px',
-
+		'padding': '.5em',
 	});
+
 });
 
 $list.on('click', 'li', function () {
