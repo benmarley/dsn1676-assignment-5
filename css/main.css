@@ -91,17 +91,17 @@ li {
 	font-size: 120%;
 	font-weight: normal;
 	text-align: left;
-	padding-bottom: 1em;
+	padding-bottom: .5em;
 	cursor: pointer;
 }
 
 .line {
 	text-decoration: line-through;
+	color: #ccc;
 }
 
 .bg-col {
-	background-color: #ccc
-
+	background-color: #ccc;
 }
 
 .bg-col:hover {

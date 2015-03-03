@@ -2,7 +2,6 @@ var $form = $('.form');
 var $item = $('.item');
 var $list = $('.list');
 
-
 $form.on('submit', function (e) { 
 	e.preventDefault();
 
@@ -13,17 +12,14 @@ $form.on('submit', function (e) {
 	$li.append($button);
 
 	$button.css ({
-		'margin-right': '0px',
 		'font-family': "Brush Script MT",
 		'font-size': '1rem',
 		'border': 'solid 1px',
 		'border-color': '#ccc',
-		'position': 'relative',
-		'left': '60%',
+		'margin-left': '20%',
 		'border-radius': '5px',
 		'padding': '.5em',
 	});
-
 });
 
 $list.on('click', 'li', function () {
