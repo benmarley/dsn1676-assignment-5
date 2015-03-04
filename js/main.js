@@ -29,8 +29,3 @@ $list.on('click', 'button', function () {
 $list.on('click', 'li', function () {
 	$(this).toggleClass('line');
 })
-	
-
-
-
-
