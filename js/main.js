@@ -16,19 +16,20 @@ $form.on('submit', function (e) {
 		'font-size': '1rem',
 		'border': 'solid 1px',
 		'border-color': '#ccc',
-		'margin-left': '20%',
+		'margin-left': '30%',
 		'border-radius': '5px',
 		'padding': '.5em',
 	});
 });
 
+$list.on('click', 'button', function () {
+	$(this).parent().remove();
+})
+
 $list.on('click', 'li', function () {
 	$(this).toggleClass('line');
 })
 	
-$list.on('click', 'button', function () {
-	$(this).parent().remove();
-})
 
 
 
